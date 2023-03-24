@@ -48,30 +48,37 @@
        
     }
 ?>
-<div id="cad">
-        <nav id="cad-nav">
-            <a href="../atv_dashboard/dashboard-senalivre/index.php">Voltar</a>
-        </nav>
-    <input type="checkbox" id="chk" aria-hidden="true">
-    <div class="signup">
-        <form class="imp" method="POST">
-            <label for="chk" aria-hidden="true">Cadastre-se</label>
-            <input type="text" name="nome" id="nome" placeholder="Nome" required="">
-            <input type="number" name="cpf" id="cpf" placeholder="CPF" required="">
-            <input type="email" name="email" id="email" placeholder="Email" required="">
-            <input type="password" name="senha" id="senha" placeholder="Senha" required="">
-            <button class="cads">Sign up</button>
-        </form>
-</div>
+<style>
+    body {
+        display: block;
+    }
+</style>
 
-<div class="login">
-    <div class="menu">
-        <form class="imp" method="POST">
-            <label for="chk" aria-hidden="true">Login</label>
-            <input type="email" name="email" placeholder="Email" required="">
-            <input type="password" name="senha" placeholder="Senha" required="">
-            <button class="cads">Login</button>
+<nav id="cad-nav">
+                <a href="../atv_dashboard/dashboard-senalivre/index.php">Voltar</a>
+</nav>
+
+<div id="reg" >
+        <div class="signup">
+            <form class="imp" method="POST">
+                <label for="chk" aria-hidden="true">Cadastre-se</label>
+                <input type="text" name="nome" id="nome" placeholder="Nome" required="">
+                <input type="number" name="cpf" id="cpf" placeholder="CPF" required="">
+                <input type="email" name="email" id="email" placeholder="Email" required="">
+                <input type="password" name="senha" id="senha" placeholder="Senha" required="">
+                <button class="cads">Sign up</button>
             </form>
+    </div>
+
+    <div class="login">
+        <div class="">
+            <form class="imp" method="POST">
+                <label for="chk" aria-hidden="true">Login</label>
+                <input type="email" name="email" placeholder="Email" required="">
+                <input type="password" name="senha" placeholder="Senha" required="">
+                <button class="cads">Login</button>
+                </form>
+        </div>
     </div>
 </div>
 
