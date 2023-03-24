@@ -1,10 +1,10 @@
 <?php
-    include("../header.php")
+    include("header.php");
    ?>
    
    <menu>
         <div class="logo">
-            <img src="../img/SENAI_São_Paulo_logo 1.png" alt="">
+            <img src="../dashboard-sena livre/img/SENAI_São_Paulo_logo 1.png" alt="">
         </div>
         <nav class="navegando">
             <ul>
@@ -108,5 +108,5 @@
     </section>
 
 <?php
-include("../footer.php")
+include("footer.php");
 ?>
