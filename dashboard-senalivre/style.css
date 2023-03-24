@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;500;600;800&display=swap');
 /* ========================================
 menu
 ========================================= */
@@ -60,6 +61,7 @@ body{
     margin: 0px;
     padding: 0px;
     text-decoration: none;
+    font-family: "Inter";
 }
 
 
@@ -97,14 +99,14 @@ main #segunda_sec{
 }
 main section{
     display: grid;
-    gap: 40px 
+    gap: 40px;
 }
 main section div{
     margin-top: 20px;
 }
-  
-
-
+menu{
+    margin-right: 30px;
+}
 main #primeira #doiss img, main #dois img, main #tres img, main #quatro img{
     height: 400px;
 }
@@ -120,15 +122,21 @@ main section tres
 main #tres, main #quatro{
     grid-template-columns: 1fr 3fr;
 }
-
-
-
-
-
-
 .x{
-    background-color: #009EF7;
+    background-color: #DCDCDC;
 }
-.y{
-    background-color: rgb(225, 238, 84);
+.vendasdomes, .produtosativos, .fornecedores, .clientes{
+    background-color:#DCDCDC ;
+}
+#partedecima div i{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+#partedecima div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15px;
+    padding: 5px;
 }
