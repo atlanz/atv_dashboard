@@ -140,3 +140,7 @@ main #tres, main #quatro{
     border-radius: 15px;
     padding: 5px;
 }
+#partedecima div:hover{
+    background: linear-gradient(180deg, rgba(92, 78, 78, 0) 0%, rgba(40, 206, 86, 0.37) 100%);
+filter: drop-shadow(10px 11px 15px rgba(76, 87, 125, 0.15));
+}
