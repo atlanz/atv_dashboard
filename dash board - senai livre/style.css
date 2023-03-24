@@ -1,0 +1,144 @@
+/* ========================================
+menu
+========================================= */
+menu{
+    background: #1E1E2D;
+    height: 100%;
+}
+menu img{
+    padding: 30px;
+}
+menu nav ul li a{
+    text-decoration: none;
+    margin: 20px;
+}
+menu nav ul li{
+    margin: 10px;
+}
+menu nav ul li:hover, header button:hover, header nav a:hover{
+    font-size: 17px;
+    font-weight: bold;
+}
+/* ===========================================
+header
+============================================== */
+header{
+    background: white;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.388);
+    display: flex;
+    justify-content:left;
+    align-items: center;
+    height: 50px;
+}
+header button{
+    background-color: #F4F6FA;
+    color: #009EF7;
+    border-radius: 5px;
+    border: none;
+    padding: 5px;
+    margin: 10px;
+}
+header nav a{
+    color: black;
+    margin: 10px;
+}
+.menu{
+    display: none;
+}
+/* ========================================
+corpo do site
+========================================= */
+body, main #primeira, main #primeira #um, main #dois, main #tres, main #quatro{
+    display: grid;
+}
+
+body{
+    grid-template-columns: 1fr 4fr;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+}
+
+
+/* ======================================================
+main h1
+====================================================== */
+main{
+    background-color: #F4F6FA;
+}
+h1{
+    font-size: 25px;
+   
+    padding: 20px;
+}
+/* ====================================================
+main section um
+====================================================== */
+#partedecima{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+main #primeira_sec{
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+}
+main #segunda_sec{
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+#partedecima{
+    height: 100px;
+}
+#primeira_sec, #segunda_sec{
+    height: 300px;
+}
+main section{
+    display: grid;
+    gap: 40px 
+}
+main section div{
+    margin-top: 20px;
+}
+  
+
+
+main #primeira #doiss img, main #dois img, main #tres img, main #quatro img{
+    height: 400px;
+}
+/* ===============================================
+main section dois
+=============================================== */
+.primeiro{
+    width: 100%;
+}
+/* ===================================
+main section tres
+===================================== */
+main #tres, main #quatro{
+    grid-template-columns: 1fr 3fr;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.x{
+    background-color: #009EF7;
+}
+.y{
+    background-color: rgb(225, 238, 84);
+}
