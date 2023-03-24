@@ -16,7 +16,7 @@ menu nav ul li{
     margin: 10px;
 }
 menu nav ul li:hover, header button:hover, header nav a:hover{
-    font-size: 17px;
+    font-size: 17px:
     font-weight: bold;
 }
 /* ===========================================
