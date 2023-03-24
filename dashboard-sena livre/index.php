@@ -78,32 +78,47 @@
 
         <main>
             <h1>E-commerce | Painel de Controle</h1>
+            <p>home - </p>
 
             <section id="partedecima">
-                <div class="x"><p>!</p></div>
-                <div class="y"><p>!</p></div>
-                <div class="x"><p>!</p></div>
-                <div class="y"><p>!</p></div>                
+                <div class="vendasdomes">
+                    <h2>R$ 69.700,00</h2>
+                    <p>Vendas esse mês</p>
+                    <i class="fa-solid fa-dollar-sign"></i>
+                </div>
+
+                <div class="produtosativos">
+                    <h2>345</h2>
+                    <p>Produtos ativos</p>
+                    <i class="fa-solid fa-box"></i>
+                </div>
+
+                <div class="fornecedores">
+                    <h2>25 </h2>
+                    <p>Fornecedores</p>
+                    <i class="fa-solid fa-building"></i>
+                </div>
+            
+                <div class="clientes">
+                    <h2>4500 </h2>
+                    <p>Clientes</p>
+                    <i class="fa-solid fa-user"></i>
+                </div>                
             </section>
+
 
             <section id="primeira_sec">
-                    <div class="x">
-                        <p>!</p>
+                    <div class="x">                       
                     </div>
-                    <div class="y">
-                        <p>!</p>
+                    <div class="x">                   
                     </div>
             </section>
-
             <section id="segunda_sec">
-                <div class="y">
-                    <p>!</p>
-                </div>
                 <div class="x">
-                    <p>!</p>
+                </div>
+                <div class="x">                  
                 </div>
             </section>
-            
         </main>
     </section>
 
